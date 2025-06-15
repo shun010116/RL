@@ -1,4 +1,4 @@
-# PPO with BipedalWalker-v3 (Docker 제출용)
+# PPO with BipedalWalker-v3 (Docker)
 
 ## 📦 프로젝트 개요
 이 프로젝트는 OpenAI Gym의 `BipedalWalker-v3` 환경에서 Proximal Policy Optimization (PPO) 알고리즘을 적용하여 에이전트를 학습시키고, 학습된 정책을 테스트하는 강화학습 프로젝트입니다.
@@ -31,10 +31,10 @@
 
 ## 🛠 실행 방법
 
-### 1. 분할된 파일 병합
+### 1. 이미지 빌드
 
 ```bash
-7z x rl-bipedalwalker.7z.001
+docker build -t rl-bipedalwalker .
 ```
 
 ### 2. 이미지 로드
