@@ -1,0 +1,10 @@
+# .gitigonre
+.DS_Store
+__pycache__/
+*.pyc
+model/
+outputs/
+videos/
+rl-bipedal/
+
+report.*
